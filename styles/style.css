@@ -17,43 +17,45 @@
 .bannner-design{
     background-image: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%),
     url("../image/resources/Vectorrr.png");
-    
 }
-
 .image-container {
     border-radius: 16px;
     background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
 }
-
 .image-container2 {
     border-radius: 16px;
     background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
 }
-
 .title {
     color: rgb(249, 249, 251);
     font-size: 64px;
     margin-bottom: 100px;
-    margin-left:70px ;
-    padding: 40px;
+    margin-left:60px ;
+    padding: 30px;
 }
-
 .conter {
     color: rgb(247, 247, 255);
-    margin-top: 300px;
+    margin-top: 290px;
     font-size: 19px;
-    margin-left: 70px;
+    margin: 90px;
 }
-
-.btn {
-    display: flex;
-    background: azure;
-    justify-content: center;
-    font-size: 20px;
-    margin-left: 70px;
-
+.btn{
+    color: #171717;
+text-align: center;
+font-size: 20px;
+font-weight: 700;
+margin: 50px;
+margin-left: 7%;
+margin-bottom: 60px;
 }
-
+.btn-5{
+    display: inline-flex;
+padding: 16px 32px;
+justify-content: center;
+align-items: center;
+margin-left: 620px;
+padding:35px;
+}
 .image-centar {
     display: block;
     margin-left: auto;
@@ -62,14 +64,12 @@
     padding-top: 37px;
 }
 .background-image{
-    background-image: url("../image/resources/Vectorrr.png");
+    background-image: url("../image/resources/Vectorrr.png" );
     margin-left: 25%px;
     margin-right: 10px;
    background-repeat: no-repeat;
     margin-top: 100px;
-
 }
-
 .colour {
     color: #fef9f9;
     text-align: center;
@@ -78,7 +78,6 @@
     font-weight: 400;
     padding: 10px;
 }
-
 .colour-e {
     color: #FFF;
     text-align: center;
@@ -86,7 +85,6 @@
     font-weight: 400;
     padding: 16px;
 }
-
 .section-title {
     color: #F00;
     text-align: center;
@@ -94,7 +92,6 @@
     font-weight: 700;
     padding-top: 120px;
 }
-
 .section-description {
     color: #F00;
     text-align: center;
@@ -103,7 +100,6 @@
     padding: 10px;
     margin-top: 20px;
 }
-
 .section-info {
     color: #070211;
     text-align: center;
@@ -111,33 +107,16 @@
     font-weight: 600;
     margin: 0 auto;
 }
-
 .back {
-    background-color: rgb(243, 243, 243);
+    background-color: rgb(245, 203, 203);
     width: 1320px;
     height: 50vh;
-    padding-top: 90px;
+    padding-top: 80px;
     margin-top: 100px;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 4%;
 }
-
-.button-click {
-    color: white;
-text-align: center;
-font-size: 20px;
-font-weight: 700;
-background-color: #F00;
-list-style: none;
-display: inline-flex;
-padding: 16px 32px;
-justify-content: center;
-align-items: center;
-gap: 10px;
-}
-
-
 .section-place {
     margin-bottom: 10px;
     text-align: center;
@@ -145,7 +124,6 @@ gap: 10px;
     font-weight: 600;
     color: #070211;
 }
-
 .section-date {
     color: #070211;
     ;
@@ -154,22 +132,20 @@ gap: 10px;
     font-size: 32px;
     font-weight: 600
 }
-
 .section-time {
     color: #070211;
     text-align: center;
     font-size: 32px;
     font-weight: 600;
 }
-
 .text-colour {
     color: #F00;
-    padding-top: 42px;
-    
+    padding: 20px;
 }
 .section-content{
     display: flex;
     padding: 30-px;
+    gap: 10px;
 }
 .text-colour{
     padding: 35px;
@@ -242,7 +218,7 @@ padding-left: 190px;
     position:relative;
     text-align: center;
     transform: translate(50%,);
-
+    margin: 0 auto;
 }
 .full-body{
     border-radius: 16px;
@@ -289,7 +265,7 @@ justify-content: space-between;
 font-family: Inter;
 font-size: 24px;
 font-style: normal;
-font-weight: 500;
+font-weight: 90px;
 line-height: 40px;
 margin-right: 60px;
 }
@@ -297,9 +273,13 @@ margin-right: 60px;
     padding: 120px;
     font-size: 20px;
 }
+.style-t{
+    margin-bottom: 30px;
+    margin-left: 120px;
+}
 .social-link{
     color:white;
-font-size: 24px;
+font-size: 20px;
 font-style: normal;
 font-weight: 500;
 line-height: 40px;
@@ -307,8 +287,9 @@ margin: 122px;
 padding-left: 40px;
 }
 .s-9{
-    margin-top: 238px;
+   padding-top: 102px;
 }
-.image-4{
-margin-bottom: 1140px;
+.im-4{
+    margin-left: 500px;
+    display: flex;
 }
